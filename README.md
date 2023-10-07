@@ -30,7 +30,7 @@ Exemplificação de CSS GRID
 ```
 
 ## 👋🏽 DEMO
-[Publicação em Codepen](https://codepen.io/cleibp/pen/xxaOqPv) 
+[Publicação em Codepen](https://codepen.io/cleibp/pen/oNMJJve) 
 
 ## Contatos
 
