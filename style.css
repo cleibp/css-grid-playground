@@ -1,0 +1,121 @@
+/*--------------------------------------------------------------
+Global
+--------------------------------------------------------------*/
+body {
+	margin: 1em;
+	color: black;
+	font-family: "Fira Code", monospace;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.masthead {
+	text-align: center;
+}
+
+.the-grid {
+    margin: 2em;
+    padding: .5em;
+	border: 5px solid #41444B;
+	border-radius: 15px;
+}
+
+/*--------------------------------------------------------------
+Box styles
+--------------------------------------------------------------*/
+
+.box {
+	padding: 1em;
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+	border-radius: 7px;
+}
+
+.blue,
+.lineblue,
+.dotsblue {
+	border: 5px solid hsl(204, 63%, 45%);
+	background-color: hsla(204, 63%, 45%, .5);
+}
+
+.purple,
+.linepurple,
+.dotspurple {
+	border: 5px solid hsl(283, 43%, 47%);
+	background-color: hsla(283, 43%, 47%, .5);
+}
+
+.green,
+.linegreen,
+.dotsgreen {
+	border: 5px solid hsl(169, 76%, 35%);
+	background-color: hsla(169, 76%, 35%, .5);
+}
+
+.yellow,
+.lineyellow,
+.dotsyellow {
+	border: 5px solid hsl(48, 89%, 50%);
+	background-color: hsla(48, 89%, 50%, .5);
+}
+
+.orange,
+.lineorange,
+.dotsorange {
+	border: 5px solid hsl(28, 80%, 52%);
+	background-color: hsla(28, 80%, 52%, .5);
+}
+
+.red,
+.linered,
+.dotsred {
+	border: 5px solid hsl(5, 80%, 58%);
+	background-color: hsla(5, 80%, 58%, .5);
+}
+
+.slate,
+.lineslate,
+.dotsslate {
+	border: 5px solid hsl(210, 28%, 29%);
+	background-color: hsla(210, 28%, 29%, .5);
+}
+
+.lineblue,
+.linepurple,
+.linegreen,
+.lineyellow,
+.lineorange,
+.linered,
+.lineslate {
+	background-image: url('gfx/lines.svg');
+}
+
+.dotsblue,
+.dotspurple,
+.dotsgreen,
+.dotsyellow,
+.dotsorange,
+.dotsred,
+.dotsslate {
+	background-image: url('gfx/dots.svg');
+}
+
+
+.the-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-content: center;
+	grid-gap: 1em;
+}
+
+.blue,
+.lineyellow {
+
+	grid-column: span 2;
+} 
+
+.ad {
+  grid-column: 4;
+  grid-row: 1;
+}
